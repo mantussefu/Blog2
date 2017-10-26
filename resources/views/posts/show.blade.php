@@ -35,6 +35,7 @@
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary">Add Comment</button>
                 </div>
+                <input id="invisible_id" name="user_id" type="hidden" value="1">
             </form>
             @include ('layouts.errors')
         </div>
